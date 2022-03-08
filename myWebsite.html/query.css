@@ -1,0 +1,726 @@
+@media screen and (max-width: 750px){
+
+  #summary{
+    left: 10px;
+    width: 90%;
+  }
+
+  #headline{
+      margin-bottom: 65px;
+  }  
+
+  #headline h1{
+    font-size: 2.5em;
+    line-height: 1.5em;
+    margin-left: 40px;
+    margin-top: 40px;
+  }
+
+  #headline img{
+      width: 200px;
+  }
+
+  #products-container{
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .item_overlay{
+    width: 220px;
+  }
+
+  #modal{
+    width: 80%;
+  }
+
+  .add-btn{
+    width: 20%;
+  }
+}
+
+
+@media screen and (max-width: 650px){
+ 
+.menu-items{
+    margin-left: 30px;
+    font-size: 20px;
+ }
+
+ #header img{
+   width: 20%;
+ }
+
+ #cart-btn{
+  width: 80px;
+  border-radius: 5px;
+}
+
+#cart-val{
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: -15px;
+}
+
+ #cart-btn img{
+   width: 30%;
+ }
+
+  #headline{
+      margin-top: 20px;
+      margin-bottom: 85px;
+      width: 80%;
+      justify-content: space-evenly;
+  }  
+
+  #headline h1{
+    font-size: 2em;
+    line-height: 1.4em;
+    margin-top: 60px;
+    margin-right: 60px;
+    font-weight: normal;
+  }
+
+  #headline img{
+      width: 250px;
+  }
+
+  #products-container{
+    column-gap: 50px;
+  }
+
+  .item_overlay{
+    width: 200px;
+  }
+
+  #footer img{
+    width: 20%;
+  }
+
+  #footer p{
+     margin-right: 10px;
+  }
+}
+
+
+@media screen and (max-width: 550px){
+
+  #summary{
+    left: 0;
+    width: 100%;
+    text-align: center;
+  }
+
+  #table-body tr td{
+    text-align: center;
+  }
+
+  .ok-btn{
+    margin-right: -100px;
+  }
+
+  .menu-items{
+    margin-left: 10px;
+    font-size: 18px;
+   }
+
+   #headline{
+     display: flex;
+     flex-direction: column;
+     text-align: center;
+     align-items: center;
+     margin-top: 5px;
+     margin-bottom: 100px;
+   } 
+
+   #headline h1{
+    margin-bottom: 20px;
+  }
+
+  #shop-btn{
+    width: 80%;
+  }
+
+  #products-container{
+    grid-template-columns: 1fr;
+  }
+
+  .add-btn{
+    width: 60%;
+  }
+
+  #about{
+    padding: 20px;
+}
+
+#second h2 {
+    font-size: 1em;
+    line-height: 1.6em;
+  }
+
+  #footer p{
+    font-size: 14px;
+  }
+
+  #modal{
+    width: 100%;
+  }
+
+  #table{
+    font-size: 13px;
+    margin-bottom: 25px;
+  }
+
+  #table th, td{
+      padding-bottom: 3px;
+      text-align: left;
+  }
+
+  .remove{
+    font-size: 10px;
+    padding: 3px;
+    width: 50px;
+    margin-left: -30px;
+  }
+
+  .inc{
+    font-size: 16px;
+    padding: 2px;
+  }
+
+  .amount{
+    padding: 10px;
+    font-size: 11px;
+  }
+
+  .checkout_btn{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ctn{
+     width: 80%;
+     margin-bottom: 40px;
+  }
+
+  .checkout{
+     width: 80%;
+     margin: 0 auto;
+  }
+
+}
+ 
+@media screen and (max-width: 800px){
+  #headline img{
+    width: 10%;
+  }
+}
+
+@media screen and (max-width: 1100px){
+  #headline{
+    margin-bottom: 55px;
+  }
+
+  #headline h1{
+      font-size: 3em;
+      margin-left: 75px;
+  }
+
+  #headline img{
+    width: 400px;
+    margin-top: 20px;
+  }
+
+  #modal{
+    width: 90%;
+  }
+
+  #summary{
+    left: 40px;
+    width: 80%;
+  }
+  
+  #products-container{
+    column-gap: 30px;
+  }
+
+  .item_overlay{
+    width: 200px;
+  }
+  
+  .add-btn{
+    width: 70%;
+  }
+}
+
+
+/* @media (max-width:1680px) {
+  
+
+    #countkart{
+      left: 1150px;
+      bottom: 400px;
+    }
+  
+    #emsimg{
+      left: 150px;
+      bottom: 350px;
+    }
+    #shop{
+      left: 2px;
+  
+      
+  
+    }  
+    
+    .add-btn{
+      left:130px;
+      width: 50%;
+    }
+  
+    .product-name{
+      left: 200px;
+    }
+  
+    #gag{  
+      margin-left: 670px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+      
+  }
+  #contCheck{
+    left: 250px;
+  }
+  
+   
+  
+    
+  }
+  
+  @media (max-width:1500px) {
+    
+    .add-btn{
+      left:120px;
+      width: 50%;
+    }
+    #gag{  
+      margin-left: 630px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  #contCheck{
+    left: 190px;
+  }
+  
+  
+  
+  
+  
+  }
+  
+  
+  
+  
+  @media (max-width:1463px) {
+    
+    #emsimg{
+      left: 150px;
+      bottom: 290px;
+    }
+  
+    #gag{  
+      margin-left: 570px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  #countkart{
+    left: 1150px;
+    bottom: 350px;
+  }
+  
+  #contCheck{
+    left: 170px;
+  }
+  
+  }
+  
+  
+  
+  
+  
+  @media (max-width:1335px) {
+  
+    #contCheck{
+      left: 90px;
+    }
+  
+    #shop{
+      left: -50px;
+  
+    }
+  
+     #butt{
+      font-size: 20px;
+      
+      width: 20%;
+    }
+  
+    
+    #text{
+      left: 370px;
+  
+    }
+    #hero{
+      left:600px;
+      bottom: 0px;
+    }
+  
+    #countkart{
+      left: 950px;
+      bottom: 280px;
+    }
+  
+    #gag{  
+      margin-left: 520px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  
+  
+  .add-btn{
+    left:100px;
+    width: 50%;
+  }
+  
+  .product-name{
+    left: 150px;
+  }
+  
+  
+  #emsimg{
+    left: 50px;
+    bottom: 210px;
+  }
+    
+  
+  
+  
+  
+  
+  
+  }
+  
+   @media (max-width:1000px) {
+  
+  
+    #contCheck{
+      left: 400px;
+    }
+    #cont{
+      font-size: 18px;
+      border-radius: 30px;
+    }
+  
+    #shop{
+      left: -200px;
+  
+      width: 20px;
+  
+    }
+  
+    #butt{
+      font-size: 20px;
+      
+      width: 20%;
+    }
+  
+    
+    #text{
+      left: 220px;
+  
+    }
+    #hero{
+      left:480px;
+      bottom: -30px;
+    }
+  
+    #countkart{
+      left: 700px;
+      bottom: 280px;
+    }
+  
+    #gag{  
+      margin-left: 350px;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  
+  
+  .add-btn{
+    left:80px;
+    width: 50%;
+  }
+  
+  .product-name{
+    left: 110px;
+  }
+  
+  
+  
+  
+  #emsimg{
+    left: 50px;
+    bottom: 210px;
+  }
+  #tableSet{
+    width: 100%;
+    left: 50px;
+  }
+  
+  
+  } 
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  @media (max-width:720px) {
+    
+    #shop{
+      left: -370px;
+  
+      width: 20px;
+  
+    }
+  
+    #butt{
+      font-size: 20px;
+      border-radius: 100px;
+      width: 30%;
+    }
+    #text{
+      left: 170px;
+  
+    }
+  
+    #emsimg{
+      left: 50px;
+      bottom: 200px;
+    }
+    #hero{
+      left:400px;
+      bottom: -60px;
+    }
+     
+    #countkart{
+      left: 510px;
+      bottom: 250px;
+    }
+   
+    .product-img{
+      width: 73%;
+    }
+    .add-btn{
+      left:20px;
+    }
+  
+    .product-name{
+      left: 40px;
+    }
+    .img__overlay{
+      width: 72%;
+      
+    }
+    .img__overlay h2{
+  
+      left: 50px; 
+  
+    }
+    .img__overlay h1{
+  
+      left: 20px; 
+  
+    }
+  
+    #tableSet{
+      width: 100%;
+      left: 3px;
+    }
+    #contCheck{
+      left: 190px;
+    }
+    #cont{
+      font-size: 18px;
+      border-radius: 30px;
+    }
+    #amount{
+      left: 120px;
+    }
+  
+    #gag{  
+      margin-left: 200px;
+  }
+    
+  #tab{
+    position: relative;
+    left: 63px;
+  }
+  
+  #tab th{
+    position: relative;
+    left: 30px;
+  }
+  #tab tr, td{
+    
+    position: relative;
+    text-align: center;
+    left: -110px;
+    
+  }
+  #summary{
+    left: 100px;
+    width: 80%; 
+    text-align: center;
+  }
+  #summary-table tr, td{
+    
+    left: -8px;
+  }
+  
+    
+  }
+  
+  
+  
+  
+  @media (max-width:550px) {
+    
+    #shop{
+      left: -390px;
+  
+      
+  
+    }
+  
+    #butt{
+      font-size: 20px;
+      border-radius: 100px;
+      width: 30%;
+    }
+    #text{
+      left: 170px;
+     font-size: 10px;
+    }
+  
+    #emsimg{
+      left: 50px;
+      bottom: 200px;
+      margin-top: 70px;
+    }
+    #hero{
+      left:320px;
+      bottom: -90px;
+    }
+     
+    #countkart{
+      left: 350px;
+      bottom: 250px;
+      width: 22%;
+    }
+   
+    #third{
+      display: flex;
+      flex-direction: column;
+    }
+    .product-img{
+      width: 110%;
+      
+  
+    }
+    .add-btn{
+      left:150px;
+    }
+  
+    .product-name{
+      left: 220px;
+    }
+    .img__overlay{
+      width: 72%;
+      
+    }
+    .img__overlay h2{
+  
+      left: 50px; 
+  
+    }
+    .img__overlay h1{
+  
+      left: 20px; 
+  
+    }
+  
+    #tableSet{
+      width: 100%;
+      left: 3px;
+    }
+    #contCheck{
+      left: 80px;
+    }
+    #cont{
+      font-size: 18px;
+      border-radius: 30px;
+    }
+    #amount{
+      left: 120px;
+    }
+  
+    #gag{  
+      margin-left: 200px;
+  }
+    
+  #tab{
+    position: relative;
+    left: 63px;
+  }
+  
+  #tab th{
+    position: relative;
+    left: 30px;
+  }
+  #tab tr, td{
+
+    position: relative;
+    text-align: center;
+    left: -110px;
+    
+  }
+  #summary{
+    left: 100px;
+    width: 80%; 
+    text-align: center;
+  }
+  #summary-table tr, td{
+    
+    left: -8px;
+  }
+  
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+   */

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="query.css">
+
+</head>
+<body>
+  
+
+  <div id="first"  >
+   
+        <div id="header">
+          <img src="./project_files/images/EMS.svg"  alt="logo">
+          <ul class="menu-list">
+              <li class="menu-items"><a href="#first">Intro</a></li>
+              <li class="menu-items"><a href="#second">About</a></li>
+              <li class="menu-items"><a href="#third">Shop</a></li>
+          </ul>
+          <div id="cart-btn">
+              <img src="./project_files/images/cart.svg" alt="cart-logo"> 
+              <span id="cart-val">0</span>
+          </div>
+      </div>
+      <div id="headline">
+        <h1 id="new">THE E- <br> MILLENIAL <br> STORE</h1>
+        <img id="imagn" src="./project_files/images/heroImage.svg" alt="heroImage">
+   </div>
+   <div id="btn-div">
+       <button id="shop-btn"><a href="#products">SHOP NOW</a></button>
+   </div>
+
+   </div>
+
+    
+
+   <div id="cart-modal">
+    <div id="modal"> 
+       <table id="table">
+          <tr>
+            <th>S/N</th>
+            <th>Name</th>
+            <th>PRICE</th>
+            <th>QUANTITY</th>
+            <th></th>
+          </tr>
+        </table>
+        
+        <form action="">
+          <label for="name">
+              <input id="name" type="text" placeholder="Your Name">
+              <p class="message" id="name-error"></p>
+          </label>
+          <label for="email">
+              <input id="email" type="email" placeholder="Your Email">
+              <p class="message" id="email-error"></p>
+          </label>
+          <label for="number">
+              <input id="number" type="number" placeholder="Your Phone Number">
+              <p class="message" id="number-error"></p>
+          </label>
+        </form>
+        <div class="amount">
+          <h1>Total Amount to be Paid</h1>
+          <h1 id="total"></h1>
+        </div>
+        <div class="checkout_btn">
+            <button class="ctn">Continue Shopping</button>
+            <button class="checkout">Checkout</button>
+        </div>
+    </div>
+    <div id="summary">
+        <h3>Thank you, <span id="b-name"></span>, Your Order has been received</h3>
+        <img id="summary-img" src="./project_files/images/check.svg" alt="success">
+        <h2>Summary</h2>
+        <table id="summary-table">
+          <thead>
+              <tr>
+                  <th>S/N</th>
+                  <th>Item</th>
+                  <th>Quantity</th>
+                </tr>
+          </thead>  
+          <tbody id="table-body"></tbody>
+        </table>
+        <button class="ok-btn" onclick="closeSummary()">OK</button>
+    </div>
+</div>
+
+
+  <div id="second">
+      <h2> E- millenial Store is an hypothetical online store for gadgets  we believe every 'millenialor 'Gen-Z should have today
+        we have mobile phones, laptops, smartwatches and other gadgets.
+        Explore all our gadgets and choose the one that suits you</h2>
+  </div>
+       
+  <div id="products">
+    <h1>OUR GADGETS</h1>
+    <div id="products-container"></div>
+</div>
+
+    <div id="footer">
+  
+      <img src="./project_files/images/EMS.svg" alt="logo">
+      <p>developed by a Frontend doctor</p>
+
+    </div>
+             
+</body>
+     <script src="https://js.paystack.co/v1/inline.js"></script>
+      <script src="./script.js"></script>
+      
+</html>
