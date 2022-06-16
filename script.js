@@ -165,6 +165,8 @@ function minus(){
 function showSummary(){
     summary.style.display = 'block';
     productModal.style.display = 'none';
+
+
 }
 
 function setAmount(){
@@ -174,6 +176,7 @@ function setAmount(){
 
 //This Function closes the transaction summar when invoked.
 function closeSummary(){
+    location.reload();
     summary.style.display = 'none';
     setAmount();
      clearCart();
@@ -181,6 +184,7 @@ function closeSummary(){
      closeModal();
      loadData();
      addItemToCart();
+     location.reload();
      
      
 }
